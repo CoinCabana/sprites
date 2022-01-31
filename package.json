@@ -1,0 +1,25 @@
+{
+  "name": "sprites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sprites": "npm run sprite-defs && npm run sprite-syms",
+    "sprite-defs": "svg-sprite --defs --svg-xmldecl false --svg-namespace-classnames false --ds=sprite.defs.svg --defs-dest=svg 'icons/**/*.svg'",
+    "sprite-syms": "svg-sprite --symbol --svg-xmldecl false --svg-namespace-classnames false --symbol-dest=./ 'icons/**/*.svg'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoinCabana/sprites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoinCabana/sprites/issues"
+  },
+  "homepage": "https://github.com/CoinCabana/sprites#readme",
+  "devDependencies": {
+    "svg-sprite": "^1.5.3"
+  }
+}

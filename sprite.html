@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprites</title>
+    <!-- To allow CSS to change the color of the svg icons,
+         remove "fill" and "stroke" attributes from icon.svg files as
+         they are overriding the css values here
+      -->
+    <style>
+
+        svg {
+            margin-right: 10px;
+            fill: royalblue;
+            stroke: royalblue;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+
+<!-- NOTE: must also set the size on the svg element (otherwise defaults to 100) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px">
+    <use xlink:href="svg/sprite.defs.svg#icon"></use>
+</svg>
+
+<!-- change the size of icon on the svg element. this scales the inner "use" element -->
+<svg xmlns="http://www.w3.org/2000/svg" width="124px" height="124px">
+    <use xlink:href="svg/sprite.defs.svg#icon"></use>
+</svg>
+
+<!-- override the color on the svg element. use a different icon by name. can still scale it to different dimensions -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64px" height="64px" style="fill: rebeccapurple; stroke: rebeccapurple;">
+    <use xlink:href="svg/sprite.defs.svg#icon24"></use>
+</svg>
+
+<!-- I don't see any difference with using symbols -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px">
+    <use xlink:href="svg/sprite.symbol.svg#icon"></use>
+</svg>
+
+</body>
+</html>

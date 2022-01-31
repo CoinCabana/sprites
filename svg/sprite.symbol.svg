@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol fill="none" viewBox="0 0 24 24" id="icon" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 4l2.16 5.84L20 12l-5.84 2.16L12 20l-2.16-5.84L4 12l5.84-2.16L12 4z"/>
+    </symbol>
+    <symbol fill="none" viewBox="0 0 24 24" id="icon24" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M12 4l2.16 5.84L20 12l-5.84 2.16L12 20l-2.16-5.84L4 12l5.84-2.16L12 4z"/>
+    </symbol>
+</svg>
