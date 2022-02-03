@@ -1,0 +1,31 @@
+{
+  "name": "@coin-cabana/p2",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoinCabana/sprites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoinCabana/sprites/issues"
+  },
+  "homepage": "https://github.com/CoinCabana/sprites#readme",
+  "dependencies": {
+    "@coin-cabana/p1": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "rimraf": "^3.0.2"
+  }
+}
